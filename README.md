@@ -8,7 +8,7 @@
 ---
 
 ## 📌 About The Project
-Accurate and early detection of brain tumors is vital in neuro-oncology. This project was developed as my **B.Sc. Final Year Project at the University of Tabriz**. It implements an end-to-end semantic segmentation pipeline using TensorFlow/Keras to process MRI scans, detect tumor regions, and generate high-precision localization masks.
+Accurate and early detection of brain tumors is vital in neuro-oncology. It implements an end-to-end semantic segmentation pipeline using TensorFlow/Keras to process MRI scans, detect tumor regions, and generate high-precision localization masks.
 
 ---
 
@@ -22,7 +22,7 @@ The model is built on a modified U-Net architecture featuring:
 ---
 
 ## 📊 Dataset & Preprocessing
-- **Dataset Source:** Kaggle brain MRI segmentation dataset containing image slices and corresponding binary masks.
+- **Dataset Source:** [Kaggle LGG MRI Segmentation Dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation) containing image slices and corresponding binary masks.
 - **Preprocessing Pipeline:**
   - Resized uniformly to $256 \times 256$ pixels.
   - Converted to single-channel grayscale.
